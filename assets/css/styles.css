@@ -105,7 +105,7 @@ a {
 
 /* ===Hero====== */
 .hero {
-    padding-top: 57px;
+    padding: 57px 0 65px;
     background-color: #fffcf4;
 }
 
@@ -123,11 +123,12 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    vertical-align: bottom;
 }
 
 .hero .floating {
     position: absolute;
-    padding: 28px 24px;
+    padding: 24px;
     width: 270px;
     background: #ffffff;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
@@ -138,6 +139,7 @@ a {
 
 .floating .item {
     display: flex;
+    align-items: center;
 }
 
 .floating .item + .item {
@@ -217,7 +219,7 @@ a {
     display: flex;
     align-items: center;
     border: none;
-    background-color: #fff;
+    background-color: transparent;
     cursor: pointer;
 }
 
