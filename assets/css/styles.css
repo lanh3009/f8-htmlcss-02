@@ -17,6 +17,24 @@ body {
 }
 
 /* Common */
+
+/* 22: bẻ xuống dòng khi chữ quá dài(ko có dấu cách)  BasicWebDesignBasicWebDesignBasicWebDesign */
+.work-break-all {
+    word-break: break-all;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    /* Sửa biến gán giá trị là 2 */
+    --line-clamp: 2;
+}
+
 .main-content {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -338,6 +356,7 @@ a {
 }
 
 .popular .course-item .title a {
+    padding-right: 4px;
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
@@ -360,6 +379,7 @@ a {
 }
 
 .popular .course-item .desc {
+    font-size: 1.4rem;
     margin-top: 6px;
     line-height: 1.86;
 }
