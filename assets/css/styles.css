@@ -545,7 +545,7 @@ a {
 }
 
 /* Blog */
-.blog .main-content {
+.blog {
     margin-top: 135px;
     padding: 96px 0;
     background: #fffcf4;
@@ -660,4 +660,80 @@ a {
 .blog .dot.active {
     cursor: default;
     background-color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+    background: #2e2100;
+    padding: 96px 135px 0;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .column .desc {
+    margin-top: 18px;
+    width: 267px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .column .social {
+    margin-top: 18px;
+    display: flex;
+    gap: 18px;
+}
+
+.footer .column .title {
+    display: inline-block;
+    border-bottom: #59554b solid 1px;
+    padding: 0 48px 14px 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .column .list {
+    margin-top: 28px;
+}
+
+.footer .column .list a {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list strong {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer .copy-right {
+    padding: 28px 0;
+}
+
+.footer .copy-right .desc {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #807d74;
 }
